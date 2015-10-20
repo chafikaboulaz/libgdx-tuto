@@ -13,7 +13,7 @@ public class LibgdxTuto extends ApplicationAdapter {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
+		img = new Texture(Gdx.files.internal("badlogic.jpg"));
 	}
 
 	@Override
