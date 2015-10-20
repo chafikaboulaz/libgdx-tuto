@@ -20,6 +20,7 @@ public class LibgdxTuto extends ApplicationAdapter {
 	public void render () {
 		Gdx.gl.glClearColor(1, 1, 1, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+		//add comment
 		batch.begin();
 		batch.draw(img, 5, 5);
 		batch.end();
